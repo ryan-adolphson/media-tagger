@@ -7,7 +7,7 @@ import HttpService from './services/http-service'
 import { ContentType, SearchResponse } from './types'
 
 const MAX_TEXT_LENGTH = 10000
-const http = new HttpService('', { 'X-API-Key': 'my-secret-key' })
+const http = new HttpService('', { 'X-API-Key': 'your-secret-key-1' })
 
 interface DialogState {
   result?: SearchResponse
