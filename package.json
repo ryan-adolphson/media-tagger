@@ -10,7 +10,9 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "docker:build": "docker build -t keyword-search .",
+    "docker:run": "docker run -p 3000:80 keyword-search"
   },
   "dependencies": {
     "react": "^19.2.5",
